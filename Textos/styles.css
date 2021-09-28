@@ -1,0 +1,30 @@
+table{
+    width: 100%;
+}
+p:first-of-type{
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 5%;
+}
+#consejo{
+    background-color:darkkhaki;
+    color:blueviolet;
+}
+#textolinea{
+    text-transform:capitalize;
+    background-color: navajowhite;
+}
+h3{
+    background-color: rgb(126, 94, 52);
+    color:gold;
+}
+.clase{
+    color: indigo;
+}
+h4[class = "clase"]{
+    font-weight: lighter;
+}
+#idparaestilo{
+    background-color: mediumpurple;
+    color:white;
+}
