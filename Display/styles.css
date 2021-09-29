@@ -1,0 +1,37 @@
+* { /* Todos los elementos de la página tienen borde */
+    border: thin solid #442A5D;
+}
+#negrita{
+    display: block;
+}
+.linea{
+    display: inline;
+}
+.lista{
+    display: list-item;
+    margin: 1%;
+    list-style-type: square;
+}
+.repetido{
+    display:none;
+}
+.bloqueenlinea{
+    display: inline-block;
+    height: 10em;
+    width: 10em;
+}
+.table{
+    display: table-cell;
+}
+.position{
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+.distri{
+    /* position: absolute;
+    top:30px;
+    left: 25px;
+    position:static; */
+    position: sticky;
+}
