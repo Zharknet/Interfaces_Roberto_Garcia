@@ -1,0 +1,54 @@
+table,tr,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th[class = "dolar"]{
+    background-image: url(imagenes/dolar.png);
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+}
+th[class = "euro"]{
+    background-image: url(imagenes/euro.png);
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+}
+th[class = "libra"]{
+    background-image: url(imagenes/libra.png);
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+}
+th[class = "yen"]{
+    background-image: url(imagenes/yen.png);
+    background-color: cornflowerblue;
+    background-repeat: no-repeat;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+
+}
+th{
+    background-image: url(imagenes/fondo_gris.gif);
+    padding-top: 2em;
+    background-color:rgb(247, 244, 244);
+    background-repeat: no-repeat;
+}
+td{
+    vertical-align:bottom;
+    text-align: center;
+
+}
+.par th[class = "euro"] ~ td{
+    background-color: yellow;
+}
+.par th[class = "libra"] ~ td{
+    background-color: moccasin;
+}
