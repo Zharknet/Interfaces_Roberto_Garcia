@@ -1,0 +1,41 @@
+/*apartado 1*/
+/* body{
+    background-image: url(madrid.jpg);
+}
+.div1{
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 10px;
+    overflow: scroll;
+}
+.imagn{
+    height: 300px;
+    width: 300px;
+} */
+/*apartado 2*/
+/* .div1{
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 10px;
+    overflow: scroll;
+}
+body{
+    background-image: url(madrid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+} */
+/*apartado 3*/
+.div1{
+    height: 200px;
+    width: 200px;
+    box-shadow: 10px 10px 10px;
+    background-image: url(logo.png);
+    background-size: contain;
+}
+body{
+    background-image: url(madrid.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
