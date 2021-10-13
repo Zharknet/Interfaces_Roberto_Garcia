@@ -1,0 +1,73 @@
+#contenedor {
+    background: linear-gradient(to bottom, #009900 80%, #ffff00 105%);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px grey;
+    position: relative;
+    font-family: arial;
+  }
+  
+  .titulo{
+    font-size: 28px;
+    font-weight: bold;
+    margin: 0px;
+    text-shadow: -0.01em 0.03em 2px white;
+  }
+  
+  .link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .link p {
+    margin-top: -15px;
+  }
+  
+  .boton  {
+    background: rgb(199, 226, 66);
+    background: linear-gradient(
+      90deg,
+      rgba(199, 226, 66, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(199, 226, 66, 1) 100%
+    );
+    width: 7em;
+    height: 2em;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .boton p {
+    transform: translate(0, -50%);
+  }
+  
+  .botones {
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    display: flex;
+    
+  }
+  
+  .botones div{
+    margin-left: 3px;
+  }
+
+  /* .boton :hover{
+    background: rgb(199, 226, 66);
+    background: linear-gradient(
+      90deg,
+      rgba(199, 226, 66, 1) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(199, 226, 66, 1) 100%
+    );
+    width: 7em;
+    height: 2em;
+    text-align: center;
+    border-radius: 5px;
+    float: right;
+    margin-left: 5px;
+  } */
