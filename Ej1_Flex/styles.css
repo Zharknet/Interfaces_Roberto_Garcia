@@ -1,0 +1,28 @@
+#container{
+    background-color:cadetblue;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items:flex-end;
+}
+
+.item{
+    background-color: orange;
+    width: 100px;
+    height: 60px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container1{
+    background-color:cadetblue;
+    flex-direction: row;
+    display:flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items:flex-end;
+    margin-top: 2%;
+}
