@@ -1,0 +1,70 @@
+:root {
+  --distance: 1rem;
+}
+
+#container {
+  display: flex;
+  height: 94vh;
+  flex-direction: column;
+  border: black solid 1px;
+  padding: var(--distance);
+  gap: var(--distance);
+}
+
+/* #container div{
+  margin: 1rem;
+} */
+
+#header {
+  flex-grow: 3;
+  border: black solid 1px;
+}
+
+#middle {
+  display: flex;
+  flex-grow: 10;
+  flex-direction: row;
+  border: black solid 1px;
+  padding: var(--distance);
+  gap: var(--distance);
+}
+
+#aside {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 1rem;
+}
+
+#aside > div {
+  border: black solid 1px;
+  margin: 0;
+}
+
+#aside > div:nth-child(1) {
+  flex-grow: 3;
+}
+
+#aside > div:nth-child(2) {
+  flex-grow: 10;
+}
+
+#main {
+  display: flex;
+  flex-grow: 10;
+  justify-content: flex-end;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: black solid 1px;
+}
+
+#main div {
+  border: 1px dodgerblue solid;
+  flex-basis: 20%;
+}
+
+#footer {
+  flex-grow: 3;
+  border: black solid 1px;
+}
