@@ -1,0 +1,48 @@
+div {
+    box-sizing: border-box;
+}
+.row {
+    border: 10px solid black;
+    padding: 1em;
+    margin: 0.5em;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    gap: 0.5em;
+}
+.element {
+    border: 10px solid green;
+	padding: 0.5em;
+}
+.image {
+    border: 10px solid blue;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+.text {
+    border: 10px solid red;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+@media screen and (min-width: 768px) {
+  .row {
+    grid-template-columns: auto auto;
+    justify-content: stretch;
+    color: blue;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .row{
+    grid-template-columns: auto auto auto;
+    color: green;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .row{
+    grid-template-columns: repeat(6,auto);
+    color: red;
+  }
+}
