@@ -249,6 +249,9 @@ li{
     #cabecera{
         height: 4em;
     }
+    .box{
+        flex-basis: 100%;
+    }
     .title{
         width: 34%;
     }
@@ -289,5 +292,8 @@ li{
         grid-row:4/4;
         height: 95%;
     } 
+
+}
+@media screen and (max-width: 388px) {
 
 }
