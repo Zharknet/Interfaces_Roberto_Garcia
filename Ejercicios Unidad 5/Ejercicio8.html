@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Este ejemplo implementa una animación que en 4 segundos cambia un elemento de 
+		 color amarillo a rojo. Se ejecuta solo una vez (el valor por defecto si no establecemos animation-iteration-count) -->
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<style>
+		div {
+			width: 1000px;
+			height: 1000px;
+            border: 1px solid black;
+			animation-name: MiAnimacion ;
+			animation-duration: 8s;
+            animation-iteration-count: infinite;
+            background-repeat:no-repeat;
+            background-size: 25%;
+            background-image: url("Imagenes/dvdlogo.png");	
+		}
+
+		/* Standard syntax */
+		@keyframes MiAnimacion {
+			0%{
+                background-position: left top;
+            }
+            25%{
+                background-position: right bottom;
+            }
+            50%{
+                background-position: right top;
+            }
+
+            75%{
+                background-position: left bottom;
+            }
+            100%{
+                background-position: left top;
+            }
+		}
+		</style>
+</head>
+<body>
+	<h1>DVD BOUNCE ANIMATION</h1>
+	<div></div>
+</body>
+</html>
