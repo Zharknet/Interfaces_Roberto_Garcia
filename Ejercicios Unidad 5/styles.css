@@ -1,0 +1,28 @@
+body{
+    background: black;
+}
+h1{
+    color:chartreuse;
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+.parrafo{
+    animation-name: parrafo;
+    animation-delay: 2s;
+    animation-fill-mode: backwards;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+@keyframes parrafo{
+   from{
+        margin-left:90%;
+        transform: rotate(0deg);
+   }
+
+   to{
+        margin-left:0%;
+        transform: rotate(360deg);
+   }
+}
