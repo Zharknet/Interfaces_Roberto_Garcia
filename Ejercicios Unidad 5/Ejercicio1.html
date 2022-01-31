@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <picture>
+            <source
+                media="(min-width:1200px)"
+                sizes="(min-width:1600) 70vw, 1200px"
+                srcset="Imagenes/paisaje.webp 1200w">
+            <source
+                media="(min-width:1200px)"
+                sizes="(min-width:1600) 70vw, 1200px"
+                srcset="Imagenes/paisaje.jpg 1200w, Imagenes/paisaje1600.jpg 1600w">
+            <source
+                media="(min-width:800px)"
+                srcset="Imagenes/paisaje2.webp">
+            <source
+                media="(min-width:800px)"
+                srcset="Imagenes/paisaje2.jpg">
+            <source
+                srcset="Imagenes/paisaje3.webp">
+            <source
+                srcset="Imagenes/paisaje3.webp">
+            <img
+                src="Imagenes/paisaje.jpg" alt="Paisaje"
+                sizes="(min-width:1600px)70vw, 1200px"
+                srcset="Imagenes/paisaje.jpg 1200w, Imagenes/paisaje1600.jpg 1600w">
+            
+        </picture>
+    </div>
+</body>
+</html>
