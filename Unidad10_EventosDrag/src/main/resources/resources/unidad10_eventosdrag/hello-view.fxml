@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="resources.unidad10_eventosdrag.HelloController">
+   <children>
+      <Text layoutX="259.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ARRASTRA UNA IMAGEN DEL EXPLORADOR" wrappingWidth="90.767578125" />
+      <Pane layoutX="99.0" layoutY="77.0" prefHeight="244.0" prefWidth="402.0" style="-fx-border-color: black;">
+         <children>
+            <ImageView fx:id="imagen" fitHeight="244.0" fitWidth="402.0" onDragDropped="#Dropp" onDragOver="#Over" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </Pane>
+      <Text fx:id="inicio" layoutX="99.0" layoutY="64.0" onDragDetected="#Detect" onDragDone="#Done" strokeType="OUTSIDE" strokeWidth="0.0" text="Inicio" />
+      <Text fx:id="fin" layoutX="472.0" layoutY="64.0" onDragDropped="#Drop2" onDragOver="#Over2" strokeType="OUTSIDE" strokeWidth="0.0" text="Fin" />
+   </children>
+</AnchorPane>
