@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica1</title>
+    <link rel="stylesheet" href="styles2.css" type="text/css">
+</head>
+<!-- G125: Proporcionar enlaces para navegar por páginas web relacionadas  No hay ningun enlace a paginas relacionadas-->
+<body>
+    <div id="contenedor">
+		<header id="cabecera">
+            <picture alt="Mascara">
+                <source
+                    media="(min-width:1200px)"
+                    sizes="(min-width:1600) 10vw"
+                    srcset="Imagenes/Cara_de_sachiel_lastimada5.jpg 1200w, Imagenes/Cara_de_sachiel_lastimada5.jpg 1600w">
+                <source
+                    media="(min-width:800px)"
+                    srcset="Imagenes/Cara_de_sachiel_lastimada6.jpg , Imagenes/Cara_de_sachiel_lastimada6.jpg 2x ">
+                <source
+                    sizes="(min-width:500px) 30vw"
+                    srcset="Imagenes/Cara_de_sachiel_lastimada7.jpg">
+                <img
+                    src="Imagenes/Cara_de_sachiel_lastimada5.jpg" alt="Mascara"
+                    sizes="(min-width:1600px)70vw, 1200px"
+                    srcset="Imagenes/Cara_de_sachiel_lastimada5.jpg">
+                
+            </picture>
+            <!-- -->
+            <div class="title"><img src="Imagenes/logo1.jpg" alt="logo de la pagina"></div>
+        </header>
+        <figure class="audio">
+            <figcaption class="audio">Musica de fondo</figcaption>
+            <audio controls="controls" autoplay="autoplay" preload="auto" muted="muted">
+                <source src="Audio/Neon Genesis Evangelion (A Cruel Angel's Thesis) Anime Intro Opening Theme BluRay (Epilepsy Warning).ogg" type="audio/ogg" />
+                <source src="Audio/Neon Genesis Evangelion (A Cruel Angel's Thesis) Anime Intro Opening Theme BluRay (Epilepsy Warning).mp3" type="audio/mpeg" />
+            </audio>
+            <!-- Con la etiqueta audio cargamos audio directamente a nuestra pagina, con la propiedad autoplay, junto con la de muted, nos permite reproducir el audio
+            automaticamente, aunque en chrome da fallos. Cargamos en este caso dos archivos de audio, uno en formato ogg y otro en mp3 desde la etiqueta source
+            para que en caso de no ser compatible con el navegador el primero de ellos que se nos cargue el segundo-->
+        </figure>
+        <div id ="barrabusqueda">
+            <div class="box"><h1>NOTICIAS</h1></div>
+            <div class="box"><h1>CURIOSIDADES</h1></div>
+            <div class="box"><h1>QUIZ</h1></div>
+            <div class="box"><h1>ARTE</h1></div>
+        </div>
+        <div id="imagenes">
+            <div class="img1" alt="personajes de evangelion"></div>
+            <div class="img2" alt="peliculas de evangelion"></div>
+            <div class="img3" alt="angeles"></div>
+            <div class="img4" alt="merch de evangelion"></div>
+        </div>
+        <div id="videos">
+            <video class="video" controls="controls" muted="muted" loop="loop"  preload="metadata" alt="video de la pagina">
+                <source src="Video/Neon Genesis Evangelion (A Cruel Angel's Thesis) Anime Intro Opening Theme BluRay (Epilepsy Warning).ogv" type="video/ogg">
+                <source src="Video/Neon Genesis Evangelion (A Cruel Angel's Thesis) Anime Intro Opening Theme BluRay (Epilepsy Warning).mp4" type="video/mp4">
+                No está soportado el vídeo
+            </video>
+    
+            <iframe  height="703" src="https://www.youtube.com/embed/nU21rCWkuJw?autoplay=1&muted=1&loop=1" title="YouTube video player" 
+            frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen alt="video de youtube">
+            </iframe>
+        </div>
+        
+		<div id="subcontenedor">
+			<div id="contenido">
+				<div id="principal">
+                    <div class="subdiv1" alt="EVAGOTCHI CONSIGUE EL TUYO"><h2>EVAGOTCHI EVA-00/EVA-01/EVA-02</h2><br><h2>CONSIGUE EL TUYO</h2></div>
+                    <div class="subdiv2" alt="VIDEOJUEGOS DE EVANGELION"><h2>VIDEOJUEGOS DE NEON GENESIS EVANGELION</h2></div>
+                    <div class="subdiv3" alt="REBUILD DE EVANGELION"><h2>REBUILD OF EVANGELION</h2></div>
+				</div>
+				<div id="secundario">
+                    <div id = "titulo_list"><h3>CATEGORIAS</h3></div>
+                    <ul>
+                        <li><h4>Neon Genesis Evangelion</h4></li>
+                        <li><h4>Evangelion: Death and Rebirth</h4></li>
+                        <li><h4>The End of Evangelion</h4></li>
+                        <li><h4>Rebuild of Evangelion</h4></li>
+                        <li><h4>Personajes</h4></li>
+                        <li><h4>Angeles</h4></li>
+                        <li><h4>NERV</h4></li>
+                        <li><h4>Videojuegos</h4></li>
+                        <li><h4>Articulos</h4></li>
+                        <li><h4>Merch</h4></li>
+                    </ul>
+				</div>
+			</div>
+		</div>
+		<div id="pie">
+            <div class="title2"alt="logo de la pagina en el pie de pagina"></div>
+		</div>
+	</div>
+</body>
+</html>
